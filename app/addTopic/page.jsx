@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
-const page = () => {
+const AddTopic = () => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
 
@@ -46,4 +46,4 @@ const page = () => {
   )
 }
 
-export default page
+export default AddTopic;

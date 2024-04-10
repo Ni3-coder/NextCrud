@@ -27,4 +27,4 @@ const RemoveBtn = ({ id }) => {
   )
 }
 
-export default RemoveBtn
+export default RemoveBtn;
